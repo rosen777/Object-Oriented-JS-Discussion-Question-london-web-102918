@@ -1,6 +1,6 @@
 const eventArea = document.getElementById('event_area')
 const imageArea = document.getElementById('image_area')
-const restartButton = document.getElementById('restart').addEventListener("click",()=> restart())
+const restartButton = document.getElementById('restart').addEventListener("click",()=> crestart())
 const attackButton = document.getElementById('attack').addEventListener("click",()=> attack())
 const defendButton = document.getElementById('defend').addEventListener("click",()=> defend())
 const healButton = document.getElementById('heal').addEventListener("click",()=> heal())
